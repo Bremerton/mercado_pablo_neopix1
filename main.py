@@ -7,4 +7,12 @@ light.set_pixel_color(5, light.rgb(0, 110, 255))
 light.set_pixel_color(6, light.rgb(8, 78, 255))
 light.set_pixel_color(7, light.rgb(147, 112, 219))
 light.set_pixel_color(8, light.rgb(255, 0, 255))
-light.set_pixel_color(9, light.rgb(255, 20, 147))
+light.set_pixel_color(9, light.rgb(255, 20, 147))    
+while True:
+    light.set_brightness(20)
+    pause(3000)
+    light.set_brightness(0)
+    pause(3000)
+    light.set_brightness(20)
+
+
